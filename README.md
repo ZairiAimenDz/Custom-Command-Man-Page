@@ -30,21 +30,37 @@ The File Is with an extension of the number of the type like ls.1 and var.2 etc
 This Is The Basic Syntax For Every Menu Page :
 
 .\" Manpage for (Your Custom Commands)
+
 .\" Extra Stuff That You Can Put Here Like Your Email And Stuff.
+
 .TH man 1 "8 Dec 2019" "0.1" "(Your Custom Command) man page"
+
 .SH NAME
+
 (Custom Command Name) \- What It Does.
+
 .SH SYNOPSIS
+
 (Syntax to get your command working) like man [command].
+
 .SH DESCRIPTION
+
 a description of your custom command.
+
 .SH OPTIONS
+
 the options like -l in ls and etc.
+
 .SH SEE ALSO
+
 useradd(8), passwd(5), nuseradd.debian(8) (Extra Commands ToCheck)
+
 .SH BUGS
+
 No known bugs.
+
 .SH AUTHOR
+
 You
 
 ## How To Use
