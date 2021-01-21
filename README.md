@@ -2,7 +2,7 @@
 
 ## Where to Put
 
-Look For It In One Of These Folders :
+You Can Put It Inside One Of These Folders:
 ```
 
 MANPATH /usr/man
@@ -27,47 +27,51 @@ Inside That Choose man1 to 9 depending on your custom command type (These Are Ju
 
 7 - > Miscellaneous
 
-The File Is with an extension of the number of the type like ls.1 and var.2 etc
+The Command Man Page File Should Have An Extension Of The Same Number As The Folder It is in, like ls.1 is in folder 1 and var.2 is in folder 2 ... etc
+
+The Command Man Page File Should Have The Same Name As Your Command So If You Name It Test you call it by doing 
+`````
+~$ man Test
+`````
 ## How To Make
 
-This Is The Basic Syntax For Every Menu Page :
+This Is The Basic Syntax For Every Menu Page (Remove The Brackets => []):
 ````
 
-.\" Manpage for (Your Custom Commands)
+.\" Manpage for [THe Name Of Your Command]
 
-.\" Extra Stuff That You Can Put Here Like Your Email And Stuff.
+.\" [You Can Put Subtitles or Your Email Or Any Extra Thing You Have]
 
-.TH man 1 "8 Dec 2019" "0.1" "(Your Custom Command) man page"
+.TH man 1 "8 Dec 2019" "0.1" "[Commmand Name] man page"
 
 .SH NAME
 
-(Custom Command Name) \- What It Does.
+[Command Name] \- [What It Does].
 
 .SH SYNOPSIS
 
-(Syntax to get your command working) like man [command].
+[Syntax To Use Your Command For Example : max [Command Name], ls [Folder] and so on]
 
 .SH DESCRIPTION
 
-a description of your custom command.
+[a description of your custom command].
 
 .SH OPTIONS
 
-the options like -l in ls and etc.
+[the options like -l in ls, -r in rm and more].
 
 .SH SEE ALSO
 
-useradd(8), passwd(5), nuseradd.debian(8) (Extra Commands ToCheck)
+useradd(8), passwd(5), nuseradd.debian(8) [Extra Commands ToCheck]
 
 .SH BUGS
 
-(If There ARe Bugs)
+[Write If There Are Bugs That Have To Be Fixed]
 
 .SH AUTHOR
 
-Your name
+[Your Name, COmpany Name, Team Name ..... Or Whatever ]
 ``````
 
-## How To Use
+And That's It, It's very easy To Do And If You are A linux user and want to automate some of your workflows creating a custom command with it's respective man page is the best way to do it.
 
-The Name Of The File Is the name you use with the man command
